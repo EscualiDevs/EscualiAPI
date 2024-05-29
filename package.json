@@ -1,0 +1,20 @@
+{
+  "name": "escuali-api",
+  "version": "0.1.0",
+  "description": "Escuali api made by escualid for being used by escualids",
+  "main": "index.js",
+  "scripts": {
+    "build": "node esbuild.js"
+  },
+  "keywords": [
+    "api",
+    "wrapper",
+    "escualiAPI",
+    "escuali-api",
+    "addon",
+    "script",
+    "minecraft"
+  ],
+  "author": "AlecsDeveloper, NxmbersCib",
+  "license": "ISC"
+}

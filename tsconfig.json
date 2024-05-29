@@ -1,5 +1,13 @@
 {
   "compilerOptions": {
+    // "allowJs": true,
+    "lib": ["es2020", "DOM"],
+    "target": "es2020",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+
+    "module": "es2020",
+    "moduleResolution": "node",
     "baseUrl": "./src",
     "paths": {
       "EscualiAPI/*": ["./EscualiAPI/*"]
