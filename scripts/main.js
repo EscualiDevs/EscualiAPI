@@ -1,0 +1,1 @@
+import{world as a}from"@minecraft/server";var s=class{static log(...o){console.log(...o)}static broadCastMessage(o){try{a.sendMessage(o)}catch(t){this.log(t,t.stack)}}};s.broadCastMessage("Putisimos negros");

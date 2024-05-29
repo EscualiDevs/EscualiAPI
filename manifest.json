@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "EscualiAPI",
+    "description": "Api escualida hecha por escualidos para ser usada por escualidos",
+    "uuid": "0f963cdd-aaca-44f7-ac61-b88ef2e4d794",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 80]
+  },
+  "modules": [
+    {
+      "uuid": "59cbd1a4-050b-4039-9c21-a82c3f26d975",
+      "entry": "scripts/main.js",
+      "description": "",
+      "language": "javascript",
+      "type": "script",
+      "version": [0, 0, 1]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.11.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.2.0-beta"
+    }
+  ]
+}
